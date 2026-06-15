@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Shield Frame -->
+    <path
+        android:fillColor="#00E6FF"
+        android:pathData="M54,18 L84,28 C84,54 71,74 54,84 C37,74 24,54 24,28 Z" />
+        
+    <!-- Dark Inner Contrast Border -->
+    <path
+        android:fillColor="#171E24"
+        android:pathData="M54,22 L80,31 C80,53 68,70 54,79 C40,70 28,53 28,31 Z" />
+        
+    <!-- Cyan Inner Shield Glow Core -->
+    <path
+        android:fillColor="#00FF87"
+        android:pathData="M54,26 L74,33 C74,50 64,65 54,73 C44,65 34,50 34,33 Z" />
+
+    <!-- Pure White Lock Core inside shield -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,38 C51.2,38 49,40.2 49,43 L49,46 C47.3,46 46,47.3 46,49 L46,58 C46,59.7 47.3,61 49,61 L59,61 C60.7,61 62,59.7 62,58 L62,49 C62,47.3 60.7,46 59,46 L59,43 C59,40.2 56.8,38 54,38 Z M54,41 C55.1,41 56,41.9 56,43 L56,46 L52,46 L52,43 C52,41.9 52.9,41 54,41 Z M54,51 C54.8,51 55.5,51.7 55.5,52.5 C55.5,53.1 54.8,54 54,55 C53.2,54 52.5,53.1 52.5,52.5 C52.5,51.7 53.2,51 54,51 Z" />
+</vector>
